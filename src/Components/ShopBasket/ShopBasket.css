@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shop-basket-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.shop-basket {
+    width: 1140px;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.shop-basket-wrap {
+    width: 700px;
+    height: 120px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    border: solid 1px lightgray;
+    margin-top: 20px;
+}
+
+
+/********************* END OF WRAPPERS AND CONTAINERS *******************************/
+
+
+/********************* START OF PHONE MODEL TEXT ICON AND ROW *******************************/
+
+.shop-basket-left {
+    width: 100px;
+    height: 120px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.shop-basket-right {
+    width: 700px;
+    height: 120px;
+    box-sizing: border-box;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+/********************* END BASKET SECTIONS LEFT AND RIGHT *******************************/
+
+/********************* START OF PHONE MODEL TEXT ICON AND ROW *******************************/
+
+.shop-basket-item-model {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.shop-basket-item-model-text {
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.shop-basket-item-button-delete {
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    color: red;
+    height: 30px;
+    cursor: pointer;
+}
+
+/********************* END OF PHONE MODEL TEXT ICON AND ROW *******************************/
+
+
+/********************* START  OF PRICE ROW *******************************/
+
+.shop-basket-item-price {
+    width: 95%;
+    height: 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+}
+
+
+/********************* END  OF QUANTITY ROW *******************************/
+
+/********************* START  OF QUANTITY ROW *******************************/
+
+.shop-basket-item-quantity-row {
+    display: flex;
+    width: 95%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-basket-item-quantity-text {
+    height: 20px;
+    width: 60px;
+}
+
+
+.shop-basket-item-quantity {
+    width: 50px;
+    height: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.shop-basket-item-quantity-text {
+    width: 30px;
+    outline: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.shop-basket-item-button-minus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+.shop-basket-item-button-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+
+/********************* END OF QUANTITY ROW *******************************/
+
+
+.shop-basket-item-total-row {
+    width: 98%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+
+
+.shop-basket-picture {
+    width: 80px;
+    height: 80px;
+    display: flex;
+}

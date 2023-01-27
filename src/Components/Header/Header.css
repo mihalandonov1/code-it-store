@@ -1,0 +1,34 @@
+
+
+.header-container {
+    width: 100%;
+    height: 160px;
+    background-image: url("https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=740&t=st=1674662397~exp=1674662997~hmac=f71daaf82a465d8e64b2300ddda6881858945a2b5899cecd786e3861cdecd249");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-wrapper {
+   
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-title {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.header-page-nav {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}

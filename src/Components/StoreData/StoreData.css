@@ -1,0 +1,60 @@
+.storedata-container {
+    width: 100%;
+    height: 300px;
+    border-top: solid 1px #d0d0d0;
+    border-bottom: solid 1px #d0d0d0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.storedata-wrapper {
+    width: 1140px;
+    height: 120px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: solid 4px black;
+}
+
+.storedata {
+    width: 1100px;
+    height: 130px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  white;
+}
+
+.storedata-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    width: 40px;
+    height: auto;
+    margin-right: 20px;
+    color: red;
+}
+
+.storedata-main-text {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.storedata-sub-text {
+    text-transform: capitalize;
+    font-size: 14px;
+}

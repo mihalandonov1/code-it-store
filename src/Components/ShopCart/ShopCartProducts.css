@@ -1,0 +1,106 @@
+
+
+.cart-wrapper {
+    width: 270px;
+    height: 380px;
+    border: solid 2px lightgray;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: inline;
+    
+}
+
+
+
+.cart-remove-from-list {
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 267px;
+    height: 255px;
+    opacity: 0.82;
+    position: absolute;
+    visibility: hidden;
+}
+
+.cart-remove-from-list-button {
+    width: 170px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px white;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.cart-image {
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+    
+}
+
+
+.cart-model {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.cart-price {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.phone-card-new-price {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    box-sizing: border-box;
+    color: red;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.phone-card-old-price {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 600;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+
+
+/* ----------- HOVER on CARD -------------- */
+
+
+ 
+ .cart-wrapper:hover .cart-remove-from-list {
+     visibility: visible;
+ }
+ 
+ /* ----------- END HOVER on CARD -------------- */
